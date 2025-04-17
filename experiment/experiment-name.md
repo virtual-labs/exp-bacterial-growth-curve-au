@@ -1,1 +1,1 @@
-## Experiment name
+## Bacterial Growth Curve
