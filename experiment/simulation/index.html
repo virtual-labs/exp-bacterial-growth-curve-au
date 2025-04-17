@@ -6,28 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
-    <link rel='stylesheet' href='../template/assets/css/fonts.googleapis.css'>
-    <link rel="stylesheet" href="../template/bower_components/angular-material/angular-material.css" />
-    <link rel="stylesheet" href="../template/assets/css/app.css" />
+    <link rel='stylesheet' href='./template/assets/css/fonts.googleapis.css'>
+    <link rel="stylesheet" href="./template/bower_components/angular-material/angular-material.css" />
+    <link rel="stylesheet" href="./template/assets/css/app.css" />
 	<link rel="stylesheet" href="css/experiment.css"/>
-    <script src="../template/js/createjs-2015.05.21.min.js"></script>
-    <script src="../template/js/easeljs-0.7.0.min.js"></script>
-    <script src="../template/bower_components/angular/angular.min.js"></script>
-    <script src="../template/bower_components/angular-animate/angular-animate.js"></script>
-    <script src="../template/bower_components/angular-aria/angular-aria.js"></script>
-    <script src="../template/bower_components/angular-fullscreen/angular-fullscreen.js"></script>
-    <script src="../template/js/Gettext.js"></script>
+    <script src="./template/js/createjs-2015.05.21.min.js"></script>
+    <script src="./template/js/easeljs-0.7.0.min.js"></script>
+    <script src="./template/bower_components/angular/angular.min.js"></script>
+    <script src="./template/bower_components/angular-animate/angular-animate.js"></script>
+    <script src="./template/bower_components/angular-aria/angular-aria.js"></script>
+    <script src="./template/bower_components/angular-fullscreen/angular-fullscreen.js"></script>
+    <script src="./template/js/Gettext.js"></script>
 	
-	<link rel="stylesheet" href="../template/assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="../template/assets/css/dialogs.css">
-	<script src="../template/bower_components/ui-bootstrap-tpls/ui-bootstrap-tpls-0.11.2.min.js"></script>
-	<script src="../template/bower_components/dialogs/dialogs.min.js"></script>
-	<script src="../template/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
-	<script src="../template/bower_components/angular-translate/angular-translate.min.js"></script>
+	<link rel="stylesheet" href="./template/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./template/assets/css/dialogs.css">
+	<script src="./template/bower_components/ui-bootstrap-tpls/ui-bootstrap-tpls-0.11.2.min.js"></script>
+	<script src="./template/bower_components/dialogs/dialogs.min.js"></script>
+	<script src="./template/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+	<script src="./template/bower_components/angular-translate/angular-translate.min.js"></script>
 
-    <script type="text/javascript" src="../template/bower_components/angular-material/angular-material.js"></script>
-    <script src="../template/js/getlanguage.js"></script>
-	<script src="../template/js/canvasjs.min.js"></script>
+    <script type="text/javascript" src="./template/bower_components/angular-material/angular-material.js"></script>
+    <script src="./template/js/getlanguage.js"></script>
+	<script src="./template/js/canvasjs.min.js"></script>
     <script src="./src/user_controller.js"></script>
 	<script src="./src/view.js"></script>
     <script src="./src/experiment.js"></script>
@@ -36,9 +36,9 @@
             .module('starterApp', ['ngMaterial', 'users'])
             .config(function($mdThemingProvider, $mdIconProvider) {
                 $mdIconProvider
-                    .icon("menu", "../template/assets/svg/menu.svg", 24)
-                    .icon("fullscreen", "../template/assets/icons/Icon3.svg", 24)
-                    .icon("help", "../template/assets/icons/Icon2.svg", 24);
+                    .icon("menu", "./template/assets/svg/menu.svg", 24)
+                    .icon("fullscreen", "./template/assets/icons/Icon3.svg", 24)
+                    .icon("help", "./template/assets/icons/Icon2.svg", 24);
                 $mdThemingProvider.theme('default')
                     .primaryPalette('blue')
                     .accentPalette('red');
@@ -115,5 +115,5 @@
 		</md-sidenav>
 	</md-content>
 </body>
-<script src="../template/js/loading.js"></script>
+<script src="./template/js/loading.js"></script>
 </html>
