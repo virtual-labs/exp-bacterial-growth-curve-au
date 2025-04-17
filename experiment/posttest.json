@@ -3,40 +3,40 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. ",
+      "question": "1. Starvation proteins are produced during the ............. phase of growth curve",
       "answers": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Death phase",
+        "b": "Exponential phase",
+        "c": "Stationary phase",
+        "d": "Lag phase"
       },
  
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },   
 
 
     {
-      "question": "2. ",
+      "question": "2. The generation time of Staphylococcus aureus is",
       "answers": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "25 minutes",
+        "b": "20 minutes",
+        "c": "30 seconds",
+        "d": "30 minutes"
       },
       
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
 
     
     {
-      "question": "3. ",
+      "question": "3. Optical density is the measure of ",
       "answers": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Absorbance",
+        "b": "Width of cuvette",
+        "c": "Transmittance",
+        "d": "Wavelength of light"
       },
      
       "correctAnswer": "a",
