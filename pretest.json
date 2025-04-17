@@ -1,0 +1,46 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. An old culture of Escherichia coli is inoculated into a fresh media. The lag phase of the organism is then",
+      "answers": {
+        "a": "Reduced",
+        "b": "Remains constant",
+        "c": "Increased",
+        "d": "None of the above"
+      },
+ 
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },   
+
+
+    {
+      "question": "2. The growth rate of bacteria is in",
+      "answers": {
+        "a": "Harmonic mean",
+        "b": "Geometric mean",
+        "c": "Arithmetic mean",
+        "d": "Observed mean"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+    
+    {
+      "question": "3. A culture of bacteria produces 5 generations in 2 hours. Calculate the generation time of the bacterium.",
+      "answers": {
+        "a": "20 minutes",
+        "b": "1 hour",
+        "c": "24 minutes",
+        "d": "30 seconds"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}	 
